@@ -1,0 +1,71 @@
+{
+  "info": {
+    "name": "School Management API",
+    "_postman_id": "d8b14a3c-1f4f-42f3-9a65-5c9f2c1f3f8a",
+    "description": "Collection for testing School Management APIs on Render",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add School",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Springfield High\",\n  \"address\": \"742 Evergreen Terrace\",\n  \"latitude\": 37.7749,\n  \"longitude\": -122.4194\n}"
+        },
+        "url": {
+          "raw": "https://school-management-api-5i0n.onrender.com/api/addSchool",
+          "protocol": "https",
+          "host": [
+            "school-management-api-5i0n",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "addSchool"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "List Schools",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://school-management-api-5i0n.onrender.com/api/listSchools?latitude=37.7749&longitude=-122.4194",
+          "protocol": "https",
+          "host": [
+            "school-management-api-5i0n",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "api",
+            "listSchools"
+          ],
+          "query": [
+            {
+              "key": "latitude",
+              "value": "37.7749"
+            },
+            {
+              "key": "longitude",
+              "value": "-122.4194"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
