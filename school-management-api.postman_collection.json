@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "972c12b4-3ab3-4ec0-a1ac-b28fa7fbc291",
+		"name": "school-management-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40688062"
+	},
+	"item": [
+		{
+			"name": "post request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "post school",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get school",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
